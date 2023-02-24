@@ -13,7 +13,7 @@ param tags object = {}
 @description('Sql Dabatase Name')
 @minLength(1)
 @maxLength(128)
-param sqldb_n string = 'sample-db'
+param sqldb_n string
 
 @description('Sql Server Name')
 @minLength(1)

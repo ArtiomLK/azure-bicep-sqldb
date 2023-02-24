@@ -11,6 +11,8 @@ var tags = {
 
 param location string = 'eastus2'
 
+var sqldb_n = 'sample-db'
+
 // ------------------------------------------------------------------------------------------------
 // REQUIREMENTS
 // SQL Server
@@ -42,6 +44,8 @@ module sqldb '../main.bicep' = {
   params: {
     location: location
     sql_n: sql_n
+    sqldb_n: sqldb_n
+    tags: tags
   }
   dependsOn: [
     sqlServer
