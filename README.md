@@ -7,7 +7,7 @@
 ## Locally test Azure Bicep Modules
 
 ```bash
-sub_id=" xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";       echo $sub_id
+sub_id="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";       echo $sub_id
 rg_n="rg-azure-bicep-sqldb-demo";                     echo $rg_n
 l="eastus2";                                          echo $l
 
